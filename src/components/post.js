@@ -1,9 +1,10 @@
 
 import React, { Component } from 'react';
-import { BrowserRouter as Link } from "react-router-dom";
+import { BrowserRouter as Link,Route } from "react-router-dom";
 import axios from 'axios';
 import "../App.css"
 import"../style.sass"
+import PostPage from "./post-page"
 
 
 export default class Post extends Component  {
@@ -69,6 +70,7 @@ export default class Post extends Component  {
     }
     render() {
         return (
+            
             <tr   key = {this.state._id}  >
             <td className = "center">
                 <svg className = "like"  version = "1.1" width= "24" height= "24" viewBox = "0 0 24 24" >
@@ -86,7 +88,7 @@ export default class Post extends Component  {
                 <div className = "inline">
                 <p className = "title">
                 <Link  className="title" onClick={() => window.location.refresh()} to={"/postPage/"+this.state._id}>{this.state.post_title}</Link>
-        
+                <Route  path={"/postPage/"+this.state._id} exact component={PostPage} />
                 </p>
                 <p className = "author">
                     <span>posted by</span>
@@ -102,10 +104,10 @@ export default class Post extends Component  {
             <td>
              
             </td>
-            
     
             
         </tr>
+            
         )
     }
 }
