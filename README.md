@@ -1,5 +1,4 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # midterm Simple_Reddit_Clone
 
 This is a simple Reddit clone, where users can post articles and comment on different articles. You can upvote or downvote to posts and comments to share your opinion.
@@ -46,6 +45,8 @@ The comment is added.
 
 ###Module Used
 ##### client side
+* fontawesome
+* boostrap
 * axios
 * ReactJS
 ##### backend
@@ -69,4 +70,5 @@ The comment is added.
 - 其實有寫一個Auth/Login的功能，但是因為對redux使用上還不夠熟悉，所以沒有實作與Post/comment結合。開始覺得好像有點了解在做什麼的時候已經死線在即了，所以放在github的版本是沒有登入功能的。
 
 - 想清楚前後端彼此之間的互動關係真的很重要。
-- CSS 選擇自己刻真的需要極大的勇氣與時間，當初對自己太有自信了。不過網路上論壇形式的template也不多。
+- CSS 選擇自己刻真的需要極大的勇氣與時間，當初對自己太有自信了，且網路上論壇形式的template也不多。但是慢慢調到一個相對順眼的版面真的蠻有成就感的。
+- 期初連terminal都沒有用過幾次、慢慢學習JS、git & github，到現在居然寫出了一個包含前後端與資料庫的Project，實實在在的感覺到自己的進步。整體而言，覺得現在做出的Project相較於剛開始了解後端時練習的幾個程式比起來，模組化程度高很多、也真的感受到了很多成長。在寫專案時，有時候會覺得花很多時間了解一個東西的用法，卻沒有很顯著的效果偶而會感到有點慌，但是看到最後做出來的成效、以及對不同web app development tool的用法越來越熟悉，覺得投入的時間還是非常充實的。希望未來能夠繼續了解其他的用法、並且應用於期末Project上，以開發出一個更完整的架構。
