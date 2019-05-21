@@ -31,8 +31,8 @@ The comment is added.
 - [x] Submit you post to your sub
 - [x] Comment
 - [x] Upvote and downvote a post, show the ratings
-- [x] Upvote and downvote a comment, show the ratings
 #####undone
+- [ ] Upvote and downvote a comment, show the ratings
 - [ ] login/register
 - [ ] Classification
 - [ ] sort the posts and comments by its ratings
