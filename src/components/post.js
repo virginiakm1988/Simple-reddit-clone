@@ -1,11 +1,9 @@
 
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import axios from 'axios';
 import "../App.css"
 import"../style.sass"
-//import { program, tsPropertySignature } from '@babel/types';
 
 
 export default class Post extends Component  {

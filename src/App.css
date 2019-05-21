@@ -1,6 +1,7 @@
 body{
   text-decoration-color: #fff;
-  color: rgba(255, 255, 255, 0.774)
+  color: rgba(255, 255, 255, 0.774);
+  
   
 }
 
@@ -87,4 +88,5 @@ body{
   　height: 100px;
   　position: relative;
   　margin-top: -100px;
+    opacity: 70%;
   }

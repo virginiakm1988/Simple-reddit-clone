@@ -10,6 +10,7 @@ body
     font-family: "Open Sans", sans-serif
     margin: 0px
     background: $dark-blue
+    background-image: url("./milky-way.jpg")
 
 *
     transition: all 0.1s ease
@@ -51,6 +52,7 @@ body
     width: 10px
     display: inline-block
     background-color: $light-blue1
+    opacity: 0.1
     margin-right: 5px
     border-radius: 2.5px
 
@@ -65,7 +67,6 @@ body
 
 .full-pic
     flex: 1
-    background: red
 
 .thumbnail
     height: 80px
@@ -146,7 +147,11 @@ body
     padding: 20px
     float: left
     
+.article
+    
 .article>div
+    background-color: $dark-blue
+    opacity: 0.9
     padding: 25px
     
 .comment-form-group>div
@@ -157,6 +162,7 @@ body
 
 .nav>.flex>table>tbody>tr:hover
     background-color: $dark-blue
+    opacity: 0.5
 
 .nav>.flex>table>tbody>tr:hover>td>p
     color: white
@@ -215,6 +221,7 @@ body
 .nav>.flex>table
     width: 100%
     background: $blue
+    opacity: 0.95
     border-spacing: 0px
     flex: 2
     display: flex

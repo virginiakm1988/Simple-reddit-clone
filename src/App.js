@@ -5,15 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.min.css"
 import "./loader.css"
 
-//import CreateTodo from "./components/create-todo.component";
-//import EditTodo from "./components/edit-todo.component";
-//import TodosList from "./components/todos-list.component";
 import PostsList from "./container/posts";
 import CreatePost from "./components/create-post";
 import EditPost from "./components/edit-post";
 import PostPage from './components/post-page'
 import "./style.sass"
-//import logo from "./logo.png";
 import redditTitle from"./reddit.svg";
 
 
@@ -21,7 +17,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <img src={redditTitle} className = "reddit"  width="120" height="80" alt ="title"></img>
+				<div style={{background_color:"black"}}>
+				<img src={redditTitle}  className = "reddit"  width="120" height="80" alt ="title"></img>
+				</div>
+       
         <div className = "nav">
           <div className = "navigation">
             <ul>

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
+//import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import axios from 'axios';
 import "../App.css"
 import"../style.sass"
 import Post from "../components/post"
+//import { program, tsPropertySignature } from '@babel/types';
 
 export default class PostsList extends Component {
 
@@ -13,7 +15,7 @@ export default class PostsList extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:4000/posts/')
+        axios.get('http://localhost:4000/subs/')
             .then(response => {
                 this.setState({ posts: response.data });
             })
@@ -24,6 +26,7 @@ export default class PostsList extends Component {
 
     postList() {
         return this.state.posts.map(function(currentPost, i){
+            console.log(currentPost)
             return <Post post={currentPost} key={i} />;
         })
     }

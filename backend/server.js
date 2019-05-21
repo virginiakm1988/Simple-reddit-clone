@@ -18,8 +18,8 @@ const PORT = 4000;
 
 let Post = require('./models/Post');
 
-
-mongoose.connect('mongodb://127.0.0.1:27017/todos', { useNewUrlParser: true });
+//please connect your own database
+mongoose.connect('<your url>, { useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once('open', function() {
