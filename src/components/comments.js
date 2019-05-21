@@ -48,7 +48,8 @@ export default class Comments extends Component {
             post_sub: '',
             post_content: '',
             comments : [],
-            comment :""
+            comment :"",
+            rate:0
         }
         this.onChangeComments = this.onChangeComments.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
@@ -73,6 +74,7 @@ export default class Comments extends Component {
                 post_author : this.state.post_author,
                 post_sub : this.state.post_sub,
                 post_content : this.state.post_content,
+                rate:this.state.rate,
                 comments : NewComments
             };
             console.log(obj);
